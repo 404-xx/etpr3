@@ -1,7 +1,7 @@
 require 'mongo'
 require 'mongoid'
 
-File.open(File.join(RAILS_ROOT, 'config/database.mongo.yml'), 'r') do |f|
+File.open(File.join(RAILS_ROOT, 'config/mongoid.yml'), 'r') do |f|
   @settings = YAML.load(f)[RAILS_ENV]
 end
 
@@ -21,4 +21,3 @@ end
 #    Mongo::Connection.new(host, @settings["slave_two"]["port"], :slave_ok => true).db(name)
 #  ]
 # end
-

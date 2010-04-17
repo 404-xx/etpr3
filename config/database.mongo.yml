@@ -1,0 +1,16 @@
+defaults: &defaults
+  host: localhost
+#  slave_one:
+#    port: 27018
+#  slave_two:
+#    port: 27019
+
+development:
+  <<: *defaults
+  database: etr3b2_dev
+
+production:
+  <<: *defaults
+  database: etr3b2
+#  username: user
+#  password: pass

@@ -1,0 +1,3 @@
+[submodule "vendor/plugins/taobao_fu"]
+	path = vendor/plugins/taobao_fu
+	url = git://github.com/why404/taobao_fu.git

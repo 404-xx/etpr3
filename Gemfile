@@ -18,6 +18,9 @@ gem 'unicorn'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
+gem "crack", ">= 0.1.7"
+gem "patron"
+
 # Use MongoDB as the database
 gem 'bson'
 gem 'bson_ext'

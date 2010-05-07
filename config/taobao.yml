@@ -1,6 +1,6 @@
 defaults: &defaults
-  app_key: 12008982
-  secret_key: a1f2143f4f634cfa6b61c2e71b5ff9c5
+  app_key: 12004444
+  secret_key: b1097ad2f942ff8df43cff28ab826052
   taobaoke_pid: mm_14283632_0_0
   taobaoke_nick: 淘江山更淘美人
 
@@ -16,5 +16,5 @@ test:
 
 production:
   <<: *defaults
-  is_sandbox: true
+  is_sandbox: false
   use_curl: true
